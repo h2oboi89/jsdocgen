@@ -4,7 +4,7 @@
    "description": "JSDoc documentation generator",
    "main": "index.js",
    "bin": {
-      "docGen": "./bin/jsdocgen.bin.js"
+      "jsdocgen": "./bin/jsdocgen.bin.js"
    },
    "scripts": {
       "gulp": "gulp",
