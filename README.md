@@ -70,4 +70,4 @@ Command       | Result
 **NOTE**: each step will automatically call the preceding step (`docPublish -> docGenerate -> docClone`)
 
 ## Testing
-The [docGenTest](https://github.com/h2oboi89/docGenTest) repository serves as a means to test this project and also provides some examples on how to use [JSDoc](http://usejsdoc.org/).
+The [jsdocgenTest](https://github.com/h2oboi89/jsdocgenTest) repository serves as a means to test this project and also provides some examples on how to use [JSDoc](http://usejsdoc.org/).
