@@ -1,0 +1,19 @@
+{
+   "plugins": [
+      "plugins/markdown"
+   ],
+   "opts": {
+      "destination": "./doc/",
+      "recurse": true
+   },
+   "templates": {
+      "default": {
+         "useLongnameInNav": true,
+         "staticFiles": {
+            "include": ["."],
+            "includePattern": ".*\\.png"
+         }
+      },
+      "cleverLinks": true
+   }
+}

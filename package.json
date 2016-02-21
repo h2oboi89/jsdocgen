@@ -1,0 +1,32 @@
+{
+   "name": "jsdocgen",
+   "version": "0.2.0",
+   "description": "JSDoc documentation generator",
+   "main": "index.js",
+   "bin": {
+      "docGen": "./bin/jsdocgen.bin.js"
+   },
+   "scripts": {
+      "gulp": "gulp",
+      "lint": "gulp lint"
+   },
+   "homepage": "https://github.com/h2oboi89/jsdocgen",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:h2oboi89/jsdocgen.git"
+   },
+   "author": "h2oboi89@gmail.com",
+   "license": "ISC",
+   "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-istanbul": "^0.10.2",
+      "gulp-jasmine": "^2.2.0",
+      "gulp-jshint": "^1.12.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-tap": "^0.1.3",
+      "gulp-watch": "^4.3.5"
+   },
+   "dependencies": {
+      "moment": "^2.11.2"
+   }
+}
