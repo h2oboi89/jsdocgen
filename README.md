@@ -18,7 +18,16 @@ Simply run `npm run docPublish` to create a `gh-pages` branch in your repository
 Add the following snippets to your `package.json` file:
 
 #### Development Dependencies
+##### From NPM
+```json
+{
+   "devDependencies": {
+      "jsdocgen": "^0.2.1"
+   }
+}
+```
 
+##### From GitHub
 ```json
 {
    "devDependencies": {
