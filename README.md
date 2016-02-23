@@ -8,6 +8,8 @@ This package provides the following advantages over using [JSDoc](https://www.np
 
 Simply run `npm run docPublish` to create a `gh-pages` branch in your repository, generate the documentation from your source, and push it to [GitHub](https://github.com/). After that all you need to do is find the link under `<Project> -> Settings -> GitHub Pages` and make it the project website link on the projects home page in [GitHub](https://github.com/). See the [Usage](#usage) section for more details.
 
+This project will take your `README.md` file and turn it into a homepage with links to the documentation from your source code as defined by [JSDoc](https://www.npmjs.com/package/jsdoc). See [jsdocgenTest](https://github.com/h2oboi89/jsdocgenTest) as an example.
+
 ## Requirements
 ### JSDoc
 `npm install -g jsdoc`
