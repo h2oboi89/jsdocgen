@@ -20,7 +20,16 @@ This project will take your `README.md` file and turn it into a homepage with li
 Add the following snippets to your `package.json` file:
 
 #### Development Dependencies
+##### From NPM
+```json
+{
+   "devDependencies": {
+      "jsdocgen": "^0.2.1"
+   }
+}
+```
 
+##### From GitHub
 ```json
 {
    "devDependencies": {
