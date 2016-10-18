@@ -40,5 +40,5 @@ module.exports = () => {
       removeBlankLines(file);
    }
 
-   console.log(`file:///${path.resolve(path.join(config.outputDirectory, 'index.html'))}`);
+   console.log(`file://${path.resolve(path.join(config.outputDirectory, 'index.html'))}`);
 };
